@@ -6,8 +6,9 @@ author_profile: true
 share: false
 comments: true
 venue: "Sorbonne Université"
-date_range: "2023-present"  # Use this instead of a single date
+date_range: "2023–present"
 ---
 
-- **Statistical Learning (M1)**
-- **Nonparametric Statistics and High-Dimensional Data (M1)**
+- **Inferential Statistics (M2)** — tutorials & practical sessions (TD + TP)
+- **Mathematical Statistics (L3)** — tutorials (TD)
+- **Data Science (L1)** — tutorials & practical sessions (TD + TP)
