@@ -7,6 +7,9 @@ redirect_from:
   - /resume
 ---
 
+
+
+
 {% include base_path %}
 
 ## Education
@@ -25,7 +28,7 @@ Since 2023, I have been involved in teaching activities at **Sorbonne Universit�
 
 ## Professional Experience
 - **Research Intern**, [LPSM](https://www.lpsm.paris/), Sorbonne Université — *May–Sep 2023 · Paris, France*  
-  – Numerical & theoretical study of **score-based generative models** (sampling error, discretization, stability).  
+  – Numerical & theoretical study of SGMs.  
 - **Research Intern**, [LPSM](https://www.lpsm.paris/), Sorbonne Université — *Jun–Jul 2022 · Paris, France*  
   – **Computational comparison** of stochastic optimization algorithms for ML.
 - **Actuarial Intern**, Assurances du Crédit Mutuel — *Jan–Jun 2020 · Strasbourg, France*  
@@ -33,4 +36,4 @@ Since 2023, I have been involved in teaching activities at **Sorbonne Universit�
 - **Business Intelligence Intern**, iCOVER — *Jun–Oct 2018 · Paris, France*  
 
 ---
-For a detailed CV, download XX
+For a detailed CV, download []

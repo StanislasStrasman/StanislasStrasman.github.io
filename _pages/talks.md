@@ -88,6 +88,30 @@ redirect_from:
 ## Upcoming and Past Talks
 
 <div class="talk-card">
+  <p class="talk-title"><a href="https://mlataussois.sciencesconf.org/?lang=en" target="_blank">Machine Learning at Aussois 2025</a></p>
+  <p class="talk-meta">Aussois Winter School — November 2025</p>
+  <p class="talk-summary">
+    <strong>Summary:</strong> This talk focuses on conditional sampling within the framework of score-based generative models (SGMs).  A particular emphasis is placed on sequential Monte Carlo (SMC) techniques, which provide a principled mechanism to perform conditional sampling while preserving the SGM structure. We outline how SMC-based conditional samplers can be embedded in the SGM framework, and conclude with ongoing theoretical work aimed at establishing upper bounds on the resulting generation error.
+  </p>
+  <div class="talk-links">
+  </div>
+</div>
+
+
+<div class="talk-card">
+  <p class="talk-title"><a href="https://www.lpsm.paris/seminaires/semdoc/index" target="_blank">Sorbonne GTT Seminar</a></p>
+  <p class="talk-meta">LPSM, Sorbonne Université, Paris — October 2025</p>
+  <p class="talk-summary">
+    <strong>Summary:</strong> We begin with a general introduction to score-based generative models (SGMs) through their stochastic differential equation (SDE) formulation, highlighting the different sources of error that arise in practical implementations. We then discuss what fundamentally defines an SGM, comparing several modelling frameworks such as VP-SDEs, VE-SDEs, flow matching, and damped Langevin diffusions. After motivating the heuristic foundations of this class of algorithms, we illustrate how they are deployed in practice and examine both the opportunities and challenges of kinetic approaches operating in an extended phase space. Finally, we explain why classical theoretical analyses in the Wasserstein-2 distance face structural obstacles and present two possible remedies: (1) a new analysis relying on the Lipschitz regularity of the modified score function, and (2) restoring ellipticity by injecting noise across the whole state space.
+  </p>
+  <div class="talk-links">
+    <a href="/files/GTT_pre.pdf">Slides</a>     
+    <span class="note-inline">⚠️ Contains animations — use Adobe Acrobat Reader or equivalent.</span>
+  </div>
+</div>
+
+
+<div class="talk-card">
   <p class="talk-title"><a href="https://jds2025.sciencesconf.org/" target="_blank">Journées de Statistique (JdS) 2025</a></p>
   <p class="talk-meta"> Université de Marseille — May 2025</p>
   <p class="talk-summary">
