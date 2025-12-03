@@ -24,7 +24,7 @@ My research focuses on **Score-based Generative Models (SGMs)** — also known a
 Before starting my PhD, I completed graduate studies in the social sciences — specialized in economics — where I developed a strong interest in the mathematical foundations of modeling uncertainty. This curiosity led me to pursue further training in **probability theory, statistics, and machine learning**, eventually leading to my current PhD on **diffusion models**.  
 
 # Research Interests
-- Score-based and diffusion generative models  
-- Sequential Monte Carlo and posterior inference  
-- Theoretical aspects of machine learning and generative AI
+- Score-based and diffusion generative models.  
+- Sequential Monte Carlo and posterior inference.
+- Theoretical aspects of machine learning and generative AI.
 

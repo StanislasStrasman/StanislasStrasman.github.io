@@ -126,6 +126,10 @@ We study the convergence guarantees of Critically Damped Langevin Diffusions (CL
     <p class="pub-actions">
       <a href="https://arxiv.org/abs/2511.02419">Paper</a>
       <a href="https://openreview.net/forum?id=a7bisLzORM">OpenReview</a>
+       <a href="https://github.com/StanislasStrasman/CLD">
+        Code
+        <svg aria-hidden="true"><use href="#icon-github"/></svg>
+      </a>
     </p>
   </div>
 </div>
