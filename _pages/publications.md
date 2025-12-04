@@ -130,6 +130,7 @@ We study the convergence guarantees of Critically Damped Langevin Diffusions (CL
         Code
         <svg aria-hidden="true"><use href="#icon-github"/></svg>
       </a>
+            <a href="/files/poster_neurips.pdf">Poster</a>
     </p>
   </div>
 </div>

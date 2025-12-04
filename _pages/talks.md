@@ -87,6 +87,31 @@ redirect_from:
 
 ## Upcoming and Past Talks
 
+
+
+
+<div class="talk-card">
+  <p class="talk-title">
+    <a href="https://neuripsinparis.github.io/neurips2025paris/" target="_blank">
+      NeurIPS@Paris 2025
+    </a>
+  </p>
+  <p class="talk-meta">Sorbonne Université, Paris — November 2025</p>
+  <p class="talk-summary">
+    <strong>Summary:</strong>
+    Presentation of our NeurIPS 2025 work on the Wasserstein convergence of critically damped Langevin
+    diffusions.
+      </p>
+  <div class="talk-links">
+    <a href="/files/NeuripsinParis.pdf">Slides</a>
+  </div>
+</div>
+
+
+
+
+
+
 <div class="talk-card">
   <p class="talk-title"><a href="https://mlataussois.sciencesconf.org/?lang=en" target="_blank">Machine Learning at Aussois 2025</a></p>
   <p class="talk-meta">Aussois Winter School — November 2025</p>

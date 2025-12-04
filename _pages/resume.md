@@ -36,4 +36,4 @@ Since 2023, I have been involved in teaching activities at **Sorbonne Universit�
 - **Business Intelligence Intern**, iCOVER — *Jun–Oct 2018 · Paris, France*  
 
 ---
-For a detailed CV, download []
+If you would like a detailed academic CV, feel free to contact me by email.
