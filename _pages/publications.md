@@ -113,6 +113,36 @@ mathjax: true
 </style>
 
 <div class="pub-card">
+  <img src="/images/img_forgetting.png" alt="Banner: On Forgetting and Stability of Score-based Generative Models" loading="lazy">
+
+  <div class="pub-content">
+    <p class="pub-title">On Forgetting and Stability of Score-based Generative Models</p>
+
+    <p class="pub-meta">
+      <strong>Stanislas Strasman</strong>, Gabriel Cardoso, Sylvain Le Corff, Vincent Lemaire, Antonio Ocello (2026)
+      <br><span class="pub-venue">Preprint</span>
+    </p>
+
+    <p class="pub-summary">
+      Understanding the stability and long-time behavior of generative models is a fundamental problem in modern machine learning.
+      This paper provides quantitative bounds on the sampling error of score-based generative models by leveraging stability and
+      forgetting properties of the Markov chain associated with the reverse-time dynamics. Under weak assumptions, we identify
+      two structural conditions ensuring propagation control of initialization and discretization errors of the backward process:
+      a Lyapunov drift condition and a Doeblin-type minorization condition. A practical consequence is quantitative stability of
+      the sampling procedure, as the reverse diffusion dynamics induces a contraction mechanism along the sampling trajectory.
+      Overall, the results clarify the role of stochastic dynamics in score-based models and provide a principled framework to
+      analyze error propagation in such approaches.
+    </p>
+
+    <p class="pub-actions">
+      <a href="/files/diffusion_forgetting.pdf">Paper </a>
+    </p>
+  </div>
+</div>
+
+
+
+<div class="pub-card">
   <img src="/images/cdl_position_velocity_banner.png" alt="Illustration of cld" loading="lazy">
   <div class="pub-content">
     <p class="pub-title">Wasserstein Convergence of Critically Damped Langevin Diffusions</p>
