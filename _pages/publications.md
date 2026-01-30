@@ -133,13 +133,11 @@ mathjax: true
       Overall, the results clarify the role of stochastic dynamics in score-based models and provide a principled framework to
       analyze error propagation in such approaches.
     </p>
-
     <p class="pub-actions">
-      <a href="/files/diffusion_forgetting.pdf">Paper </a>
+      <a href="https://arxiv.org/abs/2601.21868">Paper</a>
     </p>
   </div>
 </div>
-
 
 
 <div class="pub-card">
