@@ -17,7 +17,7 @@ redirect_from:
 
 I am a third-year PhD student in **Applied Probability** and **Machine Learning** at [Sorbonne Université](https://www.sorbonne-universite.fr/), within the [LPSM](https://www.lpsm.paris/) laboratory, under the supervision of [Claire Boyer](https://www.imo.universite-paris-saclay.fr/~claire.boyer/) (Université Paris-Saclay), [Sylvain Le Corff](https://sylvainlc.github.io/) (Sorbonne Université), [Vincent Lemaire](https://perso.lpsm.paris/~vlemaire/site.html) (Sorbonne Université) and [Antonio Ocello](https://antonio-ocello.github.io/#) (ENSAE Paris / CREST). My PhD is funded by the [Institut des Sciences du Calcul et des Données](https://iscd.sorbonne-universite.fr/about/). 
 
-My research focuses on **Score-based Generative Models (SGMs)** — also known as *diffusion models* — with a particular interest in developing theoretical analyses that yield algorithmic insights.
+My research focuses on **Score-based Generative Models (SGMs)** — also known as *diffusion models* — with a particular interest in developing theoretical analyses that yield algorithmic insights. 
 
 # Short Bio
 
