@@ -88,7 +88,35 @@ redirect_from:
 ## Upcoming and Past Talks
 
 
+<div class="talk-card">
+  <p class="talk-title">
+    <a href="https://jds2026.sciencesconf.org/" target="_blank">
+      Journées de Statistique (JdS) 2026
+    </a>
+  </p>
+  <p class="talk-meta">Université Clermont Auvergne — June 2026</p>
+  <p class="talk-summary">
+  <strong>Summary:</strong> This talk introduces critically damped Langevin diffusions (CLDs) as a kinetic extension of standard score-based generative models (SGMs) and discusses their Wasserstein-2 convergence properties.
+</p>
+  <div class="talk-links">
+    <a href="/files/slides_jds2026.pdf">Slides</a>
+  </div>
+</div>
 
+<div class="talk-card">
+  <p class="talk-title">
+    <a href="https://www.califrais.fr/" target="_blank">
+      CALIFRAIS
+    </a>
+  </p>
+  <p class="talk-meta">CALIFRAIS — 2026</p>
+  <p class="talk-summary">
+  <strong>Summary:</strong> This talk gives a conceptual and mathematical introduction to Score-based Generative Models (SGMs). Starting from the general problem of generative modeling, we revisit the historical route from Langevin sampling and score matching to denoising score matching, annealed Langevin dynamics, and reverse-time SDEs. We then explain how SGMs are implemented in practice and discuss their three main sources of error: initialization, score approximation, and discretization. The talk concludes with an overview of convergence guarantees in KL, total variation, and Wasserstein distances, together with the presentation of selected research directions.
+  </p>
+  <div class="talk-links">
+    <a href="/files/slides_CALIFRAIS.pdf">Slides</a>
+  </div>
+</div>
 
 <div class="talk-card">
   <p class="talk-title">
@@ -99,8 +127,8 @@ redirect_from:
   <p class="talk-meta">Sorbonne Université, Paris — November 2025</p>
   <p class="talk-summary">
     <strong>Summary:</strong>
-    Presentation of our NeurIPS 2025 work on the Wasserstein convergence of critically damped Langevin
-    diffusions.
+    Presentation of our NeurIPS 2025 work on the Wasserstein convergence of Critically damped Langevin
+    Diffusions (CLDs).
       </p>
   <div class="talk-links">
     <a href="/files/NeuripsinParis.pdf">Slides</a>
@@ -173,7 +201,7 @@ redirect_from:
 
 <div class="talk-card">
   <p class="talk-title"><a href="https://jds2024.sciencesconf.org/?lang=fr" target="_blank">Journées de Statistique (JdS) 2024</a></p>
-  <p class="talk-meta">Université de Bordeaux— May 2024</p>
+  <p class="talk-meta">Université de Bordeaux — May 2024</p>
   <p class="talk-summary">
     <strong>Summary:</strong> We present score-based generative models (SGMs) and identify their three main sources of error: mixing, approximation, and discretization. We then derive upper bounds on the sampling error under various metrics and illustrate, through numerical experiments, the impact of the noise schedule on generation quality.
   </p>
