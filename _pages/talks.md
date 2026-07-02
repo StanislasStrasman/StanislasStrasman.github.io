@@ -29,6 +29,10 @@ redirect_from:
   font-size: 1.05rem;
   margin-bottom: 4px;
 }
+.talk-title-link {
+  color: #52adc8;
+  text-decoration: underline;
+}
 .talk-meta {
   color: #555;
   font-size: 0.95rem;
@@ -100,6 +104,21 @@ redirect_from:
 </p>
   <div class="talk-links">
     <a href="/files/slides_jds2026.pdf">Slides</a>
+  </div>
+</div>
+
+
+
+<div class="talk-card">
+  <p class="talk-title">
+    <span class="talk-title-link">Reading group on Diffusion models</span>
+  </p>
+  <p class="talk-meta">Technical tutorial - June 2026</p>
+  <p class="talk-summary">
+    <strong>Summary:</strong> Under reasonable assumptions on the data distribution, we explore how forgetting properties, which have been shown to exist in several Markov-chain-based algorithms, can be applied to score-based generative models (SGMs). We discuss this idea through Harris-type drift and minorization arguments and relate it to other approaches in the literature. The goal is to clarify when reverse samplers are stable, how errors propagate through diffusion time, and why forgetting is useful from both a theoretical and a practical point of view in SGMs.
+  </p>
+  <div class="talk-links">
+    <a href="/files/reading_group_diffusion.pdf">Slides</a>
   </div>
 </div>
 
