@@ -94,6 +94,22 @@ redirect_from:
 
 <div class="talk-card">
   <p class="talk-title">
+    <a href="https://mas2026.sciencesconf.org/" target="_blank" rel="noopener noreferrer">
+      Journées MAS 2026
+    </a>
+  </p>
+  <p class="talk-meta">Université Claude Bernard Lyon 1, Lyon — August 26, 2026</p>
+  <p class="talk-summary">
+    <strong>Summary:</strong> This talk studies stability and error propagation in score-based generative models from a Markov-chain perspective, using Lyapunov drift and Doeblin-type minorization arguments. This viewpoint reveals forgetting properties of their stochastic samplers and clarifies the conditions under which they remain stable and robust to initialization and approximation errors. Time permitting, we will discuss how this framework connects to non-asymptotic error bounds for SMC-based conditional diffusion sampling.
+  </p>
+  <div class="talk-links">
+    <a href="/files/slides_mas2026.pdf">Slides</a>
+  </div>
+</div>
+
+
+<div class="talk-card">
+  <p class="talk-title">
     <a href="https://jds2026.sciencesconf.org/" target="_blank">
       Journées de Statistique (JdS) 2026
     </a>

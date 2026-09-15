@@ -112,6 +112,25 @@ mathjax: true
 }
 </style>
 
+<!-- SMC paper -->
+<div class="pub-card">
+  <img src="/images/smc_sampling_banner.png" alt="Conditional sampling geometry and particle error with bias plateaus" loading="lazy">
+  <div class="pub-content">
+    <p class="pub-title">Non-Asymptotic Error Bounds for SMC with Biased Proposals: Application to Conditional Diffusion Sampling</p>
+    <p class="pub-meta">
+      <strong>Stanislas Strasman</strong>, Gabriel Victorino Cardoso, Sylvain Le Corff, Vincent Lemaire, Antonio Ocello (2026)
+      <br><span class="pub-venue">Preprint</span>
+    </p>
+    <p class="pub-summary">
+      Sequential Monte Carlo (SMC) methods are a natural tool for post-hoc conditioning of pretrained generative models, but in many applications the mutation kernels used by the particle system are biased approximations of an ideal Feynman--Kac flow. This paper develops a non-asymptotic error analysis for such SMC samplers. Under forward-smoothing forgetting conditions, we decompose the total error into a kernel bias, measuring the effect of replacing the ideal transition kernels by approximate ones, and a finite-particle Monte Carlo error. Our approach relies on extending local Doeblin-type conditions and Lyapunov drift arguments for Markov kernels to conditional distributions, thereby enabling a principled control of the bias. We then instantiate this general framework for conditional sampling with score-based diffusion models, and derive the first non-asymptotic error bound that jointly controls initialization error, time discretization, and score approximation in the reverse diffusion dynamics as well as finite-particle Monte Carlo error.
+    </p>
+    <p class="pub-actions">
+      <a href="https://arxiv.org/abs/2607.04780">Paper</a>
+    </p>
+  </div>
+</div>
+
+
 <div class="pub-card">
   <img src="/images/img_forgetting.png" alt="Banner: On Forgetting and Stability of Score-based Generative Models" loading="lazy">
 
