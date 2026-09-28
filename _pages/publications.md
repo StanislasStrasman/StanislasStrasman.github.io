@@ -116,16 +116,20 @@ mathjax: true
 <div class="pub-card">
   <img src="/images/smc_sampling_banner.png" alt="Conditional sampling geometry and particle error with bias plateaus" loading="lazy">
   <div class="pub-content">
-    <p class="pub-title">Non-Asymptotic Error Bounds for SMC with Biased Proposals: Application to Conditional Diffusion Sampling</p>
+    <p class="pub-title">Theoretical Guarantees for SMC-Guided Diffusion Sampling</p>
     <p class="pub-meta">
       <strong>Stanislas Strasman</strong>, Gabriel Victorino Cardoso, Sylvain Le Corff, Vincent Lemaire, Antonio Ocello (2026)
       <br><span class="pub-venue">Preprint</span>
     </p>
     <p class="pub-summary">
-      Sequential Monte Carlo (SMC) methods are a natural tool for post-hoc conditioning of pretrained generative models, but in many applications the mutation kernels used by the particle system are biased approximations of an ideal Feynman--Kac flow. This paper develops a non-asymptotic error analysis for such SMC samplers. Under forward-smoothing forgetting conditions, we decompose the total error into a kernel bias, measuring the effect of replacing the ideal transition kernels by approximate ones, and a finite-particle Monte Carlo error. Our approach relies on extending local Doeblin-type conditions and Lyapunov drift arguments for Markov kernels to conditional distributions, thereby enabling a principled control of the bias. We then instantiate this general framework for conditional sampling with score-based diffusion models, and derive the first non-asymptotic error bound that jointly controls initialization error, time discretization, and score approximation in the reverse diffusion dynamics as well as finite-particle Monte Carlo error.
+      Post-hoc conditioning of pretrained diffusion models can be addressed using Sequential Monte Carlo (SMC) methods. By evolving an interacting particle system, SMC-guided diffusion samplers combine unconditional reverse-diffusion dynamics with sequential reweighting to approximate conditional distributions. Nevertheless, even in the infinite-particle limit, the implemented sampler may differ from the ideal conditional target because of errors in the diffusion model, its numerical implementation, and the guidance mechanism. We characterize how these local errors propagate through forward-smoothing kernels, which jointly account for the reverse dynamics and the remaining conditioning information. This yields non-asymptotic error bounds that capture both finite-particle fluctuations and approximation errors arising from initialization, numerical integration, score approximation, and potential design. In doing so, we extend stability guarantees for diffusion models to the conditional setting. Finally, we apply our framework to several state-of-the-art SMC-guided diffusion algorithms, providing a unified theoretical perspective on their approximation mechanisms and sources of error.
     </p>
     <p class="pub-actions">
       <a href="https://arxiv.org/abs/2607.04780">Paper</a>
+      <a href="https://github.com/StanislasStrasman/diffusion-guided-smc-numerics">
+        Code
+        <svg aria-hidden="true"><use href="#icon-github"/></svg>
+      </a>
     </p>
   </div>
 </div>
