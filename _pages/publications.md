@@ -112,6 +112,24 @@ mathjax: true
 }
 </style>
 
+<!-- SGD paper -->
+<div class="pub-card">
+  <img src="/images/sgd_network_banner.png" alt="Overparameterized ReLU network and stochastic gradient descent trajectory on loss contours" width="2400" height="720" loading="lazy">
+  <div class="pub-content">
+    <p class="pub-title">Non-asymptotic Convergence of Stochastic Gradient Descent in Score-based Generative Models</p>
+    <p class="pub-meta">
+      <strong>Stanislas Strasman</strong>, Sobihan Surendran, Sylvain Le Corff (2026)
+      <br><span class="pub-venue">Preprint</span>
+    </p>
+    <p class="pub-summary">
+      We analyze how stochastic gradient descent trains score-based diffusion models, with guarantees covering two settings. For general score networks, we bound non-convex optimization error and identify how weighting the training loss and sampling diffusion times affect convergence. For sufficiently wide neural networks with a single ReLU hidden layer, we use neural tangent kernel techniques to control score estimation throughout training. These results clarify the influence of loss reweighting on optimization and score accuracy, offering theoretical insight into practical diffusion training choices.
+    </p>
+    <p class="pub-actions">
+      <a href="https://arxiv.org/abs/2607.04775">Paper</a>
+    </p>
+  </div>
+</div>
+
 <!-- SMC paper -->
 <div class="pub-card">
   <img src="/images/smc_sampling_banner.png" alt="Conditional sampling geometry and particle error with bias plateaus" loading="lazy">
