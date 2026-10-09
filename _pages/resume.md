@@ -12,6 +12,12 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+#education {
+  margin-top: 0.25rem;
+}
+</style>
+
 ## Education
 - **PhD in Applied Probability & Machine Learning**, [Sorbonne Université](https://www.sorbonne-universite.fr/) — *Sep 2023–present · Paris*
 - **MSc (MVA) — Mathematics, Vision, Learning**, [ENS Paris-Saclay](https://www.master-mva.com/) — *2022–2023 · Paris-Saclay*
