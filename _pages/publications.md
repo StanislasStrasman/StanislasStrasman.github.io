@@ -27,6 +27,9 @@ mathjax: true
 </svg>
 
 <style>
+#research-papers {
+  margin-top: 1rem;
+}
 .pub-card {
   display: flex;
   flex-direction: column;
@@ -45,20 +48,37 @@ mathjax: true
 .pub-card img {
   width: 95%;
   height: auto;
-  object-position: center center; /* centers image crop */
+  aspect-ratio: 10 / 3;
+  object-position: center;
   display: block;
   margin: 0 auto;
-  object-fit: cover;       /* crops intelligently while keeping proportions */
+  object-fit: contain; /* preserve the complete illustration in a shared banner area */
+  background: #fff;
   border-bottom: 1px solid #ddd;
+}
+.pub-banner-link {
+  display: block;
 }
 .pub-content {
   padding: 20px 24px;
 }
 .pub-title {
+  position: relative;
+  padding-left: 0.85em;
   font-weight: 700;
   font-size: 1.2rem;
   margin-bottom: 8px;
   color: #222;
+}
+.pub-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 0.3em;
+  height: 0.3em;
+  border-radius: 50%;
+  background: #000;
 }
 .pub-meta {
   font-size: 0.95rem;
@@ -112,6 +132,8 @@ mathjax: true
 }
 </style>
 
+<h2 id="research-papers">Research papers</h2>
+
 <!-- SGD paper -->
 <div class="pub-card">
   <img src="/images/sgd_network_banner.png" alt="Overparameterized ReLU network and stochastic gradient descent trajectory on loss contours" width="2400" height="720" loading="lazy">
@@ -122,7 +144,7 @@ mathjax: true
       <br><span class="pub-venue">Preprint</span>
     </p>
     <p class="pub-summary">
-      We analyze how stochastic gradient descent trains score-based diffusion models, with guarantees covering two settings. For general score networks, we bound non-convex optimization error and identify how weighting the training loss and sampling diffusion times affect convergence. For sufficiently wide neural networks with a single ReLU hidden layer, we use neural tangent kernel techniques to control score estimation throughout training. These results clarify the influence of loss reweighting on optimization and score accuracy, offering theoretical insight into practical diffusion training choices.
+    We analyze stochastic gradient descent for weighted denoising score matching. We derive nonconvex optimization bounds for general score parameterizations and score-approximation guarantees along training for overparameterized two-layer ReLU networks. For this architecture, these learning guarantees are combined with a Wasserstein-2 sampling analysis that accounts for early stopping, initialization, score approximation, and discretization errors, providing a way to study how these different error terms interact in the final generation bound.
     </p>
     <p class="pub-actions">
       <a href="https://arxiv.org/abs/2607.04775">Paper</a>
@@ -140,7 +162,7 @@ mathjax: true
       <br><span class="pub-venue">Preprint</span>
     </p>
     <p class="pub-summary">
-      Post-hoc conditioning of pretrained diffusion models can be addressed using Sequential Monte Carlo (SMC) methods. By evolving an interacting particle system, SMC-guided diffusion samplers combine unconditional reverse-diffusion dynamics with sequential reweighting to approximate conditional distributions. Nevertheless, even in the infinite-particle limit, the implemented sampler may differ from the ideal conditional target because of errors in the diffusion model, its numerical implementation, and the guidance mechanism. We characterize how these local errors propagate through forward-smoothing kernels, which jointly account for the reverse dynamics and the remaining conditioning information. This yields non-asymptotic error bounds that capture both finite-particle fluctuations and approximation errors arising from initialization, numerical integration, score approximation, and potential design. In doing so, we extend stability guarantees for diffusion models to the conditional setting. Finally, we apply our framework to several state-of-the-art SMC-guided diffusion algorithms, providing a unified theoretical perspective on their approximation mechanisms and sources of error.
+      We derive non-asymptotic guarantees for conditioning pretrained diffusion models with Sequential Monte Carlo (SMC). Using forward-smoothing kernels, we separate finite-particle fluctuations from errors in initialization, score approximation, numerical integration, and guidance design. Applied to several SMC-guided samplers, the framework explains how these errors propagate and why bias can persist even with infinitely many particles.
     </p>
     <p class="pub-actions">
       <a href="https://arxiv.org/abs/2607.04780">Paper</a>
@@ -165,14 +187,7 @@ mathjax: true
     </p>
 
     <p class="pub-summary">
-      Understanding the stability and long-time behavior of generative models is a fundamental problem in modern machine learning.
-      This paper provides quantitative bounds on the sampling error of score-based generative models by leveraging stability and
-      forgetting properties of the Markov chain associated with the reverse-time dynamics. Under weak assumptions, we identify
-      two structural conditions ensuring propagation control of initialization and discretization errors of the backward process:
-      a Lyapunov drift condition and a Doeblin-type minorization condition. A practical consequence is quantitative stability of
-      the sampling procedure, as the reverse diffusion dynamics induces a contraction mechanism along the sampling trajectory.
-      Overall, the results clarify the role of stochastic dynamics in score-based models and provide a principled framework to
-      analyze error propagation in such approaches.
+We study how reverse-time dynamics in score-based generative models forget perturbations along the sampling trajectory. Using Harris-type arguments based on Lyapunov drift and localized minorization, we establish contraction in weighted total variation and quantify the propagation of initialization, score-approximation, and discretization errors. This provides a stability perspective in which errors introduced earlier in the reverse dynamics can have a reduced influence on the final generated distribution.
     </p>
     <p class="pub-actions">
       <a href="https://arxiv.org/abs/2601.21868">Paper</a>
@@ -225,6 +240,28 @@ We study how the choice of the noise schedule impacts the generation error in Sc
     </p>
   </div>
 </div>
+
+<section aria-labelledby="notes-and-expository-writing">
+  <h2 id="notes-and-expository-writing">Notes and expository writing</h2>
+
+<div class="pub-card">
+  <a class="pub-banner-link" href="/files/diffusion_note_ald_vs_sde.pdf" aria-label="View the ALD and SDE comparison figure (PDF)">
+    <img src="/images/diffusion_note_ald_vs_sde_banner.webp" alt="Annealed Langevin dynamics and SDE interpolation, with sample paths and marginal densities from high to low noise" width="2200" height="957" loading="lazy">
+  </a>
+  <div class="pub-content">
+    <p class="pub-title">A Stochastic Analysis Perspective on Diffusion Models</p>
+    <p class="pub-meta">
+      <strong>Stanislas Strasman</strong>
+      <br><span class="pub-venue">Expository note</span>
+    </p>
+    <p class="pub-summary">
+  We trace the probabilistic ideas behind diffusion models, from Langevin sampling and score matching to Gaussian smoothing, annealed Langevin dynamics, and reverse-time SDEs. A path-space perspective clarifies what diffusion time reversal requires beyond matching one-time marginals, with a martingale-based proof sketch. We then connect this idealized construction to practical training and sampling    </p>
+    <p class="pub-actions">
+      <a href="https://hal.science/hal-05788636">Paper</a>
+    </p>
+  </div>
+</div>
+</section>
 
 {% if site.author.googlescholar %}
 You can also find my articles on <u><a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</u>

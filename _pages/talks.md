@@ -89,8 +89,6 @@ redirect_from:
 }
 </style>
 
-## Upcoming and Past Talks
-
 
 <div class="talk-card">
   <p class="talk-title">
